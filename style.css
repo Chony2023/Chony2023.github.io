@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.flexbox{
+    display: flex;   
+    flex-flow: row wrap;
+    gap: 20px;
+}
+.flex-item{
+    background-color: #585;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    flex: 1 1 100px;
+}
+.flex-item:nth-child(2n){
+    background-color: #558;
+}
